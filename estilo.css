@@ -1,0 +1,231 @@
+/*Para quitar toda las propiedades de la pagina web 
+que son impuestas por default*/
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+}
+body{
+    background-color: white;
+    font-family: 'Baloo Tammudu 1', cursive;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    padding: 0px;
+    background-color: rgb(0, 44, 29);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: 'Baloo Tammudu 1', cursive;
+    font-size: 20px;
+    border: 2px , solid  rgb(2, 22, 15) ;
+    display: inline-block;
+}
+header #logo img {
+    margin: 0px;
+}
+.header.inner{
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: rgb(0, 44, 29);
+    color: rgb(255, 255, 255);
+}
+/*Todos los enlaces cambio de formato*/
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(197, 231, 210);
+}
+/*Formato a todas las imagenes*/
+img{
+    display: block;
+    margin: auto;    
+}
+.ima{
+    margin:0 auto;
+}
+.busqueda{
+    padding: 0px 40px;
+}
+
+.logo1{
+    float: left;
+    margin: auto 0px;
+}
+.menu_seccion{
+    float: right;
+}
+/*Barra de Navegacion*/
+.menu1 li {
+    list-style: square;
+    padding: 8px 8px;
+}
+.menu1 .lista_menu1 li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+button, input{
+    position: relative;
+    padding: 0;
+    width: 350px;
+    height: 30px;
+}
+input{
+    border: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+button{
+    border: none;
+    background-color: rgb(173, 214, 190);
+    font-family: 'Baloo Tammudu 2', cursive;border-radius: 10px;
+    width: 35px;
+    height: 30px;
+}
+.fa-search{
+    color: rgb(0, 44, 29);
+    font-size: 15px;
+}
+/*#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#banner-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}*/
+/*Barra de Navegacion*/
+.menu{
+    margin: auto;
+    font-size: 20px;
+    font-style: normal;
+    background: rgb(255, 255, 255);
+    color: rgb(9, 80, 24);
+    padding: 5px 25px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    
+}
+.menu li a{
+    display: block;
+    color: rgb(40, 65, 40);
+    font-size: 25px;
+}
+.menu li:hover{
+    background-color: rgb(191, 231, 191);
+    margin-bottom: 1px solid rgb(40, 65, 40);
+}
+
+
+.menu .menu_ul li{
+    display: inline-block;
+    padding: 5px 20px;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 500px;
+    z-index: 1;
+    border: 1px solid white;
+}
+.menu li:hover .submenu_ul{
+    display: block;
+    background: rgb(255, 255, 255);
+    color: rgb(22, 41, 34);
+    text-align: left;
+
+}
+
+
+
+
+#menu-icon {
+    display: none;
+    font-size: 50px;
+}
+/*Anuncio Principal*/
+.anuncio{
+    padding: 40px 50px;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: white;
+    color: black;
+    text-align: left;
+}
+.im_anuncio{
+   size: 500px;
+   
+}
+.cabeza{
+    padding: 20px 20px;
+    font-size: 30px;
+    font-style: normal;
+    font-family: 'Baloo Tammudu 2', cursive;
+    background: white;
+    color: rgb(7, 75, 52);
+    text-align: left;
+}
+p{
+    font-size: 30px;
+    font-style: normal;
+    background: white;
+    color: black;
+    text-align: left;
+}
+
+.Prod_destacados {
+    padding: 10px;
+    font-size: 50px;
+    font-style: normal;
+    text-align: left;
+    margin: auto;
+}
+
+.Prod_destacados li{
+    margin: 20px;
+    list-style: square;
+    padding: 5px 0px;
+    display: inline-block
+}
+
+
+.red_social li{
+    list-style: square;
+    padding: 0px 20px;
+    display: inline-block
+}
+
+.contacto{
+    margin: 0px 0px;
+}
+.contacto li{
+    align-items: center;
+    list-style: square;
+    padding: 5px 30px;
+    display: inline-block
+}
+.contacto ul{
+    float: inline-start;
+}
+.pie{
+    padding: 20px 30px;
+    font-size: 15px;
+    font-style: normal;
+    background: rgb(26, 23, 23);
+    color: white;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+}

@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="es-us" class="a-no-js">
+<head>
+    <meta charset = "utf-8" />         <!--para agragar iconos etc etc etc-->                
+    <title>Tienda On-line</title>    <!--Titulo de la pestana-->
+    <!--No se muestra pero sirve para tener mas informacion acerca de nuestro sitio web
+    ademas la etiqueta meta no necesita ser cerrada-->
+    <meta name = "description" content = "Venta de productos on-line"/>
+    <meta name = "author" content = "FreakJazz"/>
+    <meta name = "keywords" content = "Distribucion, Entrega, Compra, Cambio"/>
+    <link rel = "stylesheet", href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">      <!--Libreria de iconos--> 
+    <link rel = "stylesheet", href = "estilo.css">  <!--documento de estilos--> 
+    <!--Estilo de letra-->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+
+    <!--Slider https://bxslider.com/install/-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+</head>
+<script>var aPageStart = (new Date()).getTime();</script> <!--No se que hace jejejeje-->
+<body>
+    <div id = "wrapper">
+        <!--Seccion de barra principal del programa-->
+        <div class = "header">
+            <header>
+                <div class = "header.inner">
+                    <div class = "logo1">
+                        <a href = "index.html"  id = "logo"> 
+                        <img style="width:150px; height:40px;"src = "imagenes/logo.jfif" alt = "Logo Company">
+                    </div>
+                    <div class = "menu_seccion">
+                    <nav class = "menu1">               <!--para la barra de navegacion cabezera-->
+                        <!--LISTA DESORDENADA--> 
+                        <ul class = "lista_menu1">
+                            <li>
+                                <div class="busqueda">
+                                <form action="" method="">		    
+                                <input placeholder="Buscar" type = "search">
+                                <button type = "">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                                </form>
+                                </div>
+                            </li>
+                            <li>
+                            <ul>
+                                <li>
+                                <a href="index.html" class="create">Devoluciones</a>
+                                </li>
+                                <li>
+                                <a href="index.html" class="create">Pedidos</a>
+                                </li>
+                            </ul>
+                            </li>
+                            <li>
+                                <ul>
+                                    <li>
+                                    <a href="index.html" class="create">Crear Cuenta</a>
+                                    </li>
+                                    <li>
+                                    <a href="index.html" class="login">Ingresar</a>
+                                    </li>
+                                </ul>
+                            <li>
+                            <a href="index.html" class="Compra">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+            </header>
+        <!--Seccion de barra de navegacion principal-->
+            <nav class = "menu">               <!--para la barra de navegacion-->
+            <!--LISTA DESORDENADA--> 
+            <ul class = "menu_ul">
+                <li>
+                <a href = "a"  id = "menu-icon"> 
+                <i class = "fa fa-bars"></i>
+                </li>
+                <li>
+                <a href="#kits" class="kits">
+                  KITS
+                </a></li>
+                <li>
+                <a href="#alimentos" class="alimentos">Alimentos</a>
+                    <ul class = "submenu_ul">
+                        <li><a href = "CarnesEmebutidos"  class = "carnes_embutidos"> 
+                        Carnes y Embutidos
+                        </li>
+                        <li><a href = "ConservasEnlatados"  class = "conservas_enlatados"> 
+                        Conservas y Enlatados
+                        </li>
+                        <li><a href = "SalsasCondimentos"  class = "salsas_condimentos"> 
+                        Salsas y Condimentos
+                        </li>
+                        <li><a href = "FrutasVerduras"  class = "frutas_verduras"> 
+                        Frutas y Verduras
+                        </li>
+                        <li><a href = "Dulces"  class = "dul_galle_fritu"> 
+                        DulceS, Galletas y Frituras
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <a href="#bebidas" class="bebidas">Bebidas</a>
+                <ul class = "submenu_ul">
+                        <li><a href = "Bebidas de Sabores"  class = "bebidas_sabores"> 
+                        Bebidas de Sabores
+                        </li>
+                        <li><a href = "lacteos"  class = "lacteos"> 
+                        Lacteos
+                        </li>
+                        <li><a href = "gaseosas"  class = "gaseosas"> 
+                        Gaseosas
+                        </li>
+                        <li><a href = "licores"  class = "licores"> 
+                        Licores
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <a href="#aseo_personal" class="aseo_personal">Aseo Personal</a>
+                    <ul class = "submenu_ul">
+                        <li><a href = "alcoholAntibacte"  class = "alcohol_antiba"> 
+                        Alcohol y Antibacteriales
+                        </li>
+                        <li><a href = "papel_higenico"  class = "papel_higenico"> 
+                        Papel Higenico
+                        </li>
+                        <li><a href = "intimo"  class = "intimo"> 
+                        Cuidado Intimo
+                        </li>
+                        <li><a href = "corporal"  class = "corporal"> 
+                        Higiene Corporal 
+                        </li>
+                        <li><a href = "dental"  class = "dental"> 
+                        Higiene Dental 
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <a href="#limpieza" class="articulos">Limpieza</a>
+                <ul class = "submenu_ul">
+                        <li><a href = "bano"  class = "bano"> 
+                        Baño
+                        </li>
+                        <li><a href = "cocina"  class = "cocina"> 
+                        Cocina
+                        </li>
+                        <li><a href = "muebles"  class = "muebles"> 
+                        Muebles
+                        </li>
+                        <li><a href = "desinfectantes"  class = "desinfectantes"> 
+                        Desinfectantes 
+                        </li>
+                        <li><a href = "imp_limpi"  class = "imp_limpi"> 
+                        Implementos de Limpieza
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <a href="#mascotas" class="mascotas">Mascotas</a>
+                <ul class = "submenu_ul">
+                        <li><a href = "comi_masco"  class = "comi_masco"> 
+                        Comida
+                        </li>
+                        <li><a href = "accesorios"  class = "accesorios_masco"> 
+                        Accesorios
+                        </li>
+                        <li><a href = "muebles"  class = "ropa_masco"> 
+                        Ropa
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                <a href="#ofertas" class="juguetes">
+                  Ofertas
+                </a></li>
+            </ul>
+        </nav>
+        <!--Seccion de slider de imagenes promociones-->
+        </section class = "slide-wrap">
+            <ul class = "slider1">
+            <li>
+                <img class = "ima" src = "imagenes/img-1.jpg" alts = "Quedate_en_casa"/>
+            </li>
+            <li>
+                <img  class = "ima" src = "imagenes/img-1.jpg" alts = "Quedate_en_casa"/>
+            </li>
+            <li>
+                <img  class = "ima" src = "imagenes/img-1.jpg" alts = "Quedate_en_casa"/>
+            </li>
+            </ul>
+        </section>
+    </div>
+        <!--Seccion productos destacados-->
+        <section>
+            <!--Le da un nivel mas bajo de jerarquia que el header principar--> 
+            <hgroup>
+                <h1 class = "cabeza">PRODUCTOS DESTACADOS</h1>
+            </hgroup>
+            <div class = "Prod_destacados">
+                <ul>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-arroz1.jpg"/>
+                        <p>ARROZ GUSTADINA</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-real1.png"/>
+                        <p>ATUN REAL</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-clorox1.png"/>
+                        <p>CLOROX</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-scott1.png"/>
+                        <p>PAPEL HIGENICO SCOTT</p>
+                        <p>PRECIO </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Seccion productos Recomendados-->
+        <section>
+            <!--Le da un nivel mas bajo de jerarquia que el header principar--> 
+            <hgroup>
+                <h1 class = "cabeza">PRODUCTOS RECOMENDADOS</h1>
+            </hgroup>
+            <div class = "Prod_destacados">
+                <ul>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-arroz1.jpg"/>
+                        <p>ARROZ GUSTADINA</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-real1.png"/>
+                        <p>ATUN REAL</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-clorox1.png"/>
+                        <p>CLOROX</p>
+                        <p>PRECIO </p>
+                    </li>
+                    <li>
+                        <img style="width:150px; height:150px;" src = "imagenes/prod-scott1.png"/>
+                        <p>PAPEL HIGENICO SCOTT</p>
+                        <p>PRECIO </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--Contactos-->
+        <section>
+            <!--Le da un nivel mas bajo de jerarquia que el header principar--> 
+            <hgroup>
+                <h1 class = "cabeza">Redes Sociales</h1>
+            </hgroup>
+            <div class = "red_social">
+            <ul>
+                <li>
+                <a href = "http://facebook.com"  target="_blank"> 
+                <img style="width:50px; height:50px;" src = "imagenes/facebook.png"/>
+                </li>
+                <li>
+                <a href = "http://instagram.com"  target="_blank"> 
+                <img style="width:50px; height:50px;" src = "imagenes/instagram.png"/>
+                </li>
+            </ul>
+            </div>
+            <div class = "contacto">
+                <ul>
+                    <li>
+                        <h1 class = "cabeza">Empresa</h1>
+                        <a href="#quienes_somos" class="contact">
+                        <p>Quienes Somos</p>
+                        <a href="#mision" class="contact">
+                        <p>Mision</p>
+                        <a href="#vision" class="contact">
+                        <p>Vision</p>
+                    </li>
+                    <li>
+                        <h1 class = "cabeza">Servicio al Cliente</h1>
+                        <a href="#preg_frec" class="contact">
+                        <p>Preguntas Frecuentes</p>
+                        <a href="#termi_condi" class="contact">
+                        <p>Terminos y Condiciones</p>
+                    </li>
+                    <li>
+                        <h1 class = "cabeza">Contactos</h1>
+                        <a href="#mail" class="contact">
+                        <p>Mail</p>
+                    </li>
+                </ul>   
+            </div>
+
+        </section>
+
+        <footer class = "pie"> 
+            <div class = "banner-wrapper">
+                <div class = "icon-text">
+                    <div class - "icon-text-icon">
+                        ©2020 Quito - Ecuador Derechos Reservados
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+        <!--Para enlazar con el Javascript-->
+     <script src = "main.js" charset = "utf-8"></script> 
+     <script> $(document).ready(function(){
+         $('.slider1').bxSlider({ mode: 'fade'})    //modo para cambiar la imagen 
+         $('.slider1').bxSlider({ mode: 'fade'})    //modo para cambiar la imagen 
+         $('.slider1').bxSlider({ mode: 'fade'})    //modo para cambiar la imagen 
+         })
+         </script>     
+    </body>
+</html>         
+   
