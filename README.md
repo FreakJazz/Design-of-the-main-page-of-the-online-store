@@ -17,11 +17,11 @@ Design of the main page of the online store with HTML AND CSS with drop-down men
 
 Header
 
-![web](https://github.com/FreakJazz/Design-of-the-main-page-of-the-online-store/blob/master/imagenes/web.png)
+![web](https://github.com/FreakJazz/Design-of-the-main-page-of-the-online-store/blob/master/imagenes/web.PNG)
 
 Footer
 
-![web](https://github.com/FreakJazz/Design-of-the-main-page-of-the-online-store/blob/master/imagenes/web1.png)
+![web](https://github.com/FreakJazz/Design-of-the-main-page-of-the-online-store/blob/master/imagenes/web1.PNG)
 
 <a name="item4"></a>
 ## Contributing
